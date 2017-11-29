@@ -28,11 +28,11 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="angkaLabel" min="-2" pref="291" max="-2" attributes="0"/>
-                  <Component id="mulaiButton" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="infoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="inputTextField" alignment="0" min="-2" pref="352" max="-2" attributes="0"/>
-                  <Component id="cekButton" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="cobaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cekButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="mulaiButton" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
       </Group>
@@ -61,9 +61,6 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\user\Downloads\monyet.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
     </Component>

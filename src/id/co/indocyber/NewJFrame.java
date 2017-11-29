@@ -45,7 +45,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\monyet.png")); // NOI18N
         jLabel1.setText("jLabel1");
 
         mulaiButton.setBackground(new java.awt.Color(0, 255, 102));
@@ -94,11 +93,11 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(angkaLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 291, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mulaiButton)
                     .addComponent(infoLabel)
                     .addComponent(inputTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 352, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cekButton)
-                    .addComponent(cobaLabel)))
+                    .addComponent(cobaLabel)
+                    .addComponent(cekButton, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(mulaiButton, javax.swing.GroupLayout.Alignment.TRAILING)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
