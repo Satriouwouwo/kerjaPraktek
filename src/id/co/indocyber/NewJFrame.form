@@ -23,17 +23,22 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jLabel1" min="-2" pref="576" max="-2" attributes="0"/>
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="angkaLabel" min="-2" pref="291" max="-2" attributes="0"/>
-                  <Component id="mulaiButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="infoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="inputTextField" alignment="0" min="-2" pref="352" max="-2" attributes="0"/>
-                  <Component id="cekButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="cobaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="cobaLabel" max="32767" attributes="0"/>
+                          <Component id="angkaLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="infoLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="mulaiButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="cekButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="inputTextField" alignment="0" pref="352" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -41,7 +46,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jLabel1" min="-2" pref="206" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Component id="mulaiButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="infoLabel" min="-2" max="-2" attributes="0"/>
@@ -53,7 +58,7 @@
               <Component id="cekButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="cobaLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -61,9 +66,6 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\user\Downloads\monyet.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
     </Component>
@@ -84,11 +86,13 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="70" green="ff" red="0" type="rgb"/>
         </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Klik Button Mulai untuk Main"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="angkaLabel">
       <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="labelRandom"/>
       </Properties>
     </Component>
@@ -107,6 +111,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="cobaLabel">
       <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="jLabel2"/>
       </Properties>
     </Component>
