@@ -145,7 +145,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 mulaiButton.setEnabled(true);
                 infoLabel.setEnabled(true);
                 inputTextField.setText("");
-                
+                scoreJawaban();
             }
             else {
                 JOptionPane.showMessageDialog(rootPane, "Salah!!!");
@@ -181,22 +181,22 @@ public class NewJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         coba++;
         cekJawaban();
-        scoreJawaban();
-        JOptionPane.showMessageDialog(rootPane, scoreJawabanAsString,"Weeww",1);
+       
     }//GEN-LAST:event_cekButtonActionPerformed
     
     private void scoreJawaban(){
         if(coba < 4){
          scoreJawabanAsString = "Jago ! ";
+         
         }
-        else if (coba > 4 && coba > 10)
+        else if (coba > 4 && coba < 10)
         {
             scoreJawabanAsString = "Lumayan !";
         }
         else {
             scoreJawabanAsString = "Buruk !";
         }
-     
+        JOptionPane.showMessageDialog(rootPane, scoreJawabanAsString);
     }
     /**
      * @param args the command line arguments
