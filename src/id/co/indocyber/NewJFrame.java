@@ -126,7 +126,7 @@ public class NewJFrame extends javax.swing.JFrame {
         double random  = Math.random()*100;
         double ceil = Math.ceil(random);
         total = (int)ceil;
-        angkaLabel.setText(""+total);
+        angkaLabel.setText(""+total) ;
  
     }
     
